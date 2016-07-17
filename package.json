@@ -1,6 +1,6 @@
 {
   "name": "@risingstack/nx-seo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An express middleware for NX, used for SEO. Works by sending prerendered HTML pages to crawlers.",
   "main": "seo.js",
   "author": {
@@ -17,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/RisingStack/nx-seo/issues"
   },
-  "engines" : {
-    "node" : ">=6.0.0"
+  "engines": {
+    "node": ">=6.0.0"
   },
   "homepage": "http://nx-nxframework.rhcloud.com",
   "keywords": [
