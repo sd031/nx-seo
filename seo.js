@@ -43,7 +43,8 @@ module.exports = function seoFactory (config) {
           script.parentNode.removeChild(script)
         }
       }
-      res.end(window.document.documentElement.outerHTML)
+      res.set('Content-Type', 'text/html')
+      res.send(window.document.documentElement.outerHTML)
       window.close()
     }
   }
