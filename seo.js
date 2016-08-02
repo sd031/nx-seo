@@ -29,6 +29,7 @@ module.exports = function seoFactory (config) {
       if (err) {
         throw err
       }
+      window.requestAnimationFrame = window.requestAnimationFrame || window.setTimeout
       window.MutationObserver = window.MutationObserver || MutationObserver(window)
     }
 

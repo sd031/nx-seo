@@ -1,6 +1,6 @@
 # nx-seo
 
-An express middleware, that pre-renders [NX](http://nx-nxframework.rhcloud.com/) apps when the request user-agent is a crawler.
+An express middleware, that pre-renders [NX](http://nx-framework.com/) apps when the request user-agent is a crawler.
 It also removes all the scripts from the page after rendering and before sending the final HTML.
 
 ## Installation
